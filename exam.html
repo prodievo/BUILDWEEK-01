@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exam Page</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style-exam.css">
+    <link rel="stylesheet" href="./css/style-results.css">
+</head>
+<body>
+
+    <div class="bodyCenter">
+        <header id="" class="top-header">
+            <figure>
+                <img src="./assets/epicode_logo.png" alt="Logo Epicode" class="logo-img">
+            </figure>
+            <div class="clock">
+                <svg>
+                    <circle cx="50" cy="50" r="50"></circle>
+                    <circle cx="50" cy="50" r="50" id="second"></circle>
+                </svg>
+                <div class="clock-text"></div>
+            </div>
+        </header>
+    
+        <main>
+            <div class="main-container" id="bigger-container">
+                <div class="main-title" id="question-container"></div>
+                <div>
+                    <div class="btn-container" id="answers-container"></div>
+                </div>
+                <div class="count-question-container"></div>
+            </div>
+        </main>
+    </div>
+    
+    <script src="./js/data.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+</html>

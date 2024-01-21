@@ -1,0 +1,114 @@
+:root{
+    --title-color: #00fff0;
+    --subtitle-color: #D20094;
+    --text-color: white;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-image: url("../assets/bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1, h2, h3, h4, h5, p, figure, ul{
+    margin: 0;
+    padding: 0;
+}
+
+.bodyCenter{
+    padding: 0 0 0 15px;
+    margin: 0;
+    display: flex;
+    width: 100%;
+    max-width: 900px;
+    height: 100%;
+    flex-direction: column;
+    gap: 10px;
+    /* overflow: hidden; */
+    /* padding-bottom: 20px; */
+}
+
+.logo-img{
+    width: 150px;
+    height: 50px;
+    object-fit: contain;
+    padding-top: 30px;
+}
+
+.main-title{
+    font-family: 'Outfit', sans-serif;
+    font-size: 50px;
+    color: var(--text-color);
+    line-height: 80px;
+    margin: 50px 0 50px 0;
+    font-weight: 400;
+}
+
+span{
+    font-weight: 400;
+}
+
+.subtitle{
+    font-family: 'Outfit', sans-serif;
+    font-size: 20px;
+    color: var(--subtitle-color);
+    padding-bottom: 5px;
+    font-weight: bold;
+}
+
+.text-decoration{
+    color: var(--text-color);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+
+.ul-lists{
+    margin: 35px 0;
+    padding-left: 20px;
+    line-height: 27px;
+}
+
+.bottom-page{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 85px;
+    gap: 180px;
+}
+
+/* .checkbox-style{
+    border: 1px solid var(--text-color);
+    border-radius: none;
+    color: transparent;
+} */
+
+.button-style{
+    font-family: 'Outfit', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 0px;
+    background: #00fff0;
+    box-shadow:  0px 150px 100px #00d9cc,
+             0px 0px 30px #00ffff;
+    cursor: pointer;
+}
+
+.unchecked{
+    font-family: 'Outfit', sans-serif;
+    font-size: large;
+    font-weight: 700;
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 0px;
+    background: #000330;
+    color: var(--text-color);
+}
